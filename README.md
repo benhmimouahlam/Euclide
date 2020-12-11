@@ -1,10 +1,1 @@
 # Euclide
-def pgcd(a,b):
-    if a > b :
-        while b != 0:
-            x=b
-            b=a%b
-            a=x
-        return a
-    else :
-        return pgcd(b,a)
